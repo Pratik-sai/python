@@ -1,0 +1,19 @@
+			EXCEPTION HANDLING
+
+-> Exception means the abnormal situation occurs at runtime and stop the execution of programme is called exception
+	TWO TYPES-> 1.Syntax Error
+		    2.Exception Error
+->SYNTAX ERROR:-
+		As the name suggest this error is caused by wrong syntax in the code. it leads to the termination of the programme
+->EXCEPTION ERROR:-
+		exception are raised when the program is syntactically correct but the code resulted in an error. this error does not stop the execution of the program, howeverit changes the normal flow of the program
+
+->USER DEFINED EXCEPTION:-
+		USER GENERATE HIS OWN CUSTOM
+*** try:
+Except exception as e:
+ the code which is written try block can be occur error at runtime
+
+->FINALLY BLOCK:-
+		*The block which runs compulsory if error ocurs or not
+                *to close a file 

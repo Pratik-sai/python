@@ -1,0 +1,10 @@
+ 					RANDOM MODULE
+
+-> Python provide multiple inbuilt function that are used to choose or generate random number by using random module
+->choice() : used to return random number from list, tuple, set.
+->randint() : used to generate random number from particular given range
+->shuffle() : used to shuffle a value of list
+-> for import the function we have to use
+         from random import choice   #to import choice()
+         from random import randint  #to import randint()
+	 from random import shuffle  #to import shuffle()

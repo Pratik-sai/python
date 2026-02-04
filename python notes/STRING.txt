@@ -1,0 +1,23 @@
+					STRING
+
+->surrounded by either single quote or double quote
+->collection of character
+->allow any datatype value to the store
+-> """.....""" used for multiline
+  compare string
+== equals to
+< less than     	A<B<C<D<E<...
+> greater than 
+
+*** THE STR.INDEX() & STR.FIND() BOTH ARE SIMLILAR FUNCTION BUT THE DIFFERNCE IS FIND() METHOD RETURNS -1 IF THE SUBSTRING IS NOT FOUND WHEREAS INDEX() SHOWS AN EXCEPTION ***
+
+*** DIFFERENCE BETWEEN ISDIGIT() & ISNUMERIC()
+ Similarly, roman numerals, currency numerators and fractions are considered numeric numbers (usually written using unicode) but not decimals. The isdecimal() also returns False in this case.***
+
+*** Difference between str.find() & str.rfind() is str.find() returns first occurance index of substring while str.rfind returns highest index of substring if the substring is not presant it returns -1 *** 
+
+*** The format_map(mapping) is similar to str.format(**mapping) method.
+
+The only difference is that str.format(**mapping) copies the dict whereas str.format_map(mapping) makes a new dictionary during method call. This can be useful if you are working with a dict subclass.***
+
+***format_map(mapping) is more flexible than format(**mapping) as you can have missing keys.***s

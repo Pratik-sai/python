@@ -1,0 +1,18 @@
+data types:- used before the variables, to know which type of variable are stored in variable
+				
+
+					datatype
+	numeric		boolean		set		dictionary		sequence
+integer	      float							   list		tuple
+    complexnumber								string
+
+
+
+		("TYPE" FUNCTIIN IS USED FOR CHECKING THE VARIABLE TYPE)
+
+
+Set: {'a','b','c'}
+Dictionary: {"key":"value"}
+li: [1,2,3,4]
+String: x = "python"
+tuple: (1,2,3,4)

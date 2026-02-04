@@ -1,0 +1,66 @@
+data types : str, int, float, double
+data structures: list, dict, set, tuple,
+
+li =[1,2,3]
+li = list(1,2,3)
+
+di = {"key":"value", "key2": "value"}
+di = {1:"a", "b":2}
+di = dict(a=1) # {"a": 1}
+key = int, str, tuple
+value = int, str, tuple, list, dict
+
+* division always gives floating value
+  e.g: 8/4 = 2.0
+       7/2 = 3.5
+  for integer value we have to use "//"
+  e.g: 8//4 = 2
+       7//2 = 3
+* power = "**"
+* reminder = '%'
+* "=" used to value a variable
+* "==" used to compare variable
+* '...' or "..." = manipulate string 
+* (\') = to escape single quote
+* \n = newline    #without print() \n include in the output
+* "r" =  If you don’t want characters prefaced by \ to be interpreted as special characters
+  e.g: print('C:\some\name')  # here \n means newline!
+       print(r'C:\some\name')  # note the r before the quote
+* """...""" or '''...''' = span multiple lines 
+* "+" add strings
+  e.g: str + ing
+	'string'
+* "*" repeated strings
+* slicing
+	[0:2] = position 0 to 2
+	[:2] = from the beginning to posion 2
+	[2:] = from posion 2 to the end
+	[-2:] = second last to the end 
+* len() = length of string or list
+* (end=' ') = avoid newline
+* range() = to iterate over a sequence of number
+	#range(start,end,steps)
+* break = end the loop
+* continue = skip the loop
+* pass = when the user does not know what to write (for not to show error in the execution) 
+
+	*args allows for any number of optional positional arguments (parameters), which will be assigned to a tuple named args.
+
+	**kwargs allows for any number of optional keyword arguments (parameters), which will be in a dict named kwargs.
+
+   "*" is used to get all the elemant from list
+	e.g: l =[1,2,3,4,5]
+	     print(l)
+	     print(*l)
+	output:
+	     [1,2,3,4,5]
+	     1 2 3 4 5
+
+
+   "%" is used to format elemant from list
+	e.g: exam_date = (24, 11, 2021)
+	     print("the date of exam is : %i / %i / %i " % exam_date)
+	output:
+	     the date of exam is : 24 / 11 / 2021
+
+

@@ -1,0 +1,44 @@
+					OPERATOR
+
+			ARITHMETIC OPRATOR
++		addition
+-		subtraction
+* 		multiplication
+/		division
+%		reminder
+++		increment
+--		decrement
+
+			COMPARISION OPERATOR
+<		less than
+>		greater than
+<=		less than equal to
+>= 		greater than equal to
+==		equal to
+!=		not equal to
+===		equal value and same type
+!==		not equal value or not same type
+
+			ASSIGNMENT OPERATOR
+=		m=10
++= 		m=m+10
+-=		m=m-10
+*= 		m=m*10
+/=		m=m/10
+%= 		m=m%10
+&=		a=a&b
+^= 		a=a^b
+|=		a=a|b
+
+			LOGICAL OPERATOR
+And		return true if both statement are true
+Or 		return true if one of the statement is true
+Not		reverse the result, returns false if the result is true and vice versa
+
+			IDENTITY OPERATOR
+is		returns true if both varaiables are the same object
+is not		returns true if both variables are not the same object
+
+			MEMBERSHIP OPERATOR
+in 		returns true if the sequence with the specified value is present in the object
+Not in		returns true if the sequence with the specified value is not present in the object

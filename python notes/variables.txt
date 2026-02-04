@@ -1,0 +1,13 @@
+   					VARIABLES
+It stores integers, float, string, boolean, set, tuple, list, and dictionary
+
+
+RULES
+-> Variables should start with alphabet only
+-> Variables name should not have whitespaces
+-> we cannot use datatype name as variable name
+-> varaiable name are significant(CASE SENSITIVE)
+
+E.G:
+	x,y,z = "orange, "mango", "banana"
+

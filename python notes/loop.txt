@@ -1,0 +1,13 @@
+					LOOP
+
+
+		WHILE LOOP
+-> entry control loop(if the condition true it will execute the loop)
+
+
+		FOR LOOP
+->iteration the value from a list
+
+
+		NESTED FOR LOOP
+->for loop inside a for loop

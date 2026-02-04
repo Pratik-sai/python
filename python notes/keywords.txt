@@ -1,0 +1,24 @@
+while		pass
+class		raise
+exec		try
+assert		with
+lambda		none
+def		as
+except		async
+global		await
+import		finally
+return		global
+print		is
+yeild		in
+for		nonlocal
+elif		del
+else
+continue
+if
+not
+break
+from
+or
+true
+and
+false

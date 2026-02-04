@@ -1,0 +1,9 @@
+				TUPLE
+
+->tuple is collection in python
+->immutable(no changeable at runtime)
+->allows multiple datatype values to be store
+->index value start from zero
+->(....) = tuple 
+->len()    check a length of tuple
+->== equal to

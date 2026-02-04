@@ -1,0 +1,14 @@
+				LIST
+
+-> list is collection in python, which stores data into sequence
+-> list store multiple datatypes value like string, int, float, character
+-> also stores duplicate value
+-> works on index value which start from 0
+-> it is mutable(changeable at runtime)
+->l1 =[  ] =list(())
+list.insert(index,"variable")   INSERT INTO LIST
+list.extend()                  
+list.remove()			REMOVE ELEMENT
+list.pop()			REMOVE LAST VALUE FROM LIST
+del list[index]			REMOVE ITEM FROM THE INDEX
+list.clear()			CLEAR THE LIST

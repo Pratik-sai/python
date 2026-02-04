@@ -1,0 +1,10 @@
+				MATH MODULE
+
+-> factorial() : return factorial number
+-> cell() : used to round up of the integer
+-> floor() : used to round down of the integer
+-> sqrt() : return square root of the value
+
+import math first
+than u can use math module
+

@@ -1,0 +1,57 @@
+					FILE HANDLING
+
+-> It is a important part of web application
+-> we can do several function for creating, reading, Updating and Deleting files.
+-> applications: "whatsapp document attach"
+		 "zoom file sharing"
+		 "microsoft team"
+-> "r" :- Read a file content
+-> "a" :- Append a value in file
+-> "w" :- write a value in file
+
+
+			FILE CREATING
+*  open method:
+		open("file_name.txt","w")    # w is for write
+
+s = "this is my file handling program"
+file = open("demo.txt", "w")
+file.write(s)
+print("file created")
+file.close()
+
+
+			FILE READ
+*  open method:
+		open("demo.txt", "r")       # r is for read
+
+file = open("demo.txt", "r")
+filecontent = file.read()
+print(filecontent)
+
+
+			write a list into file
+
+->l1 = ["python", "java", "php", "angular"]
+file = open("demo2.txt", "w")
+file.writelines(l1)			#to write list use writelines()
+print("file created")
+file.close()
+
+*** python readline() return a line from the file when called while python readlines() return all the lines in a file in the format of a list where each elemant is a line in the file***
+
+
+			read a list from file
+
+file = open("demo2.txt", "r")
+filelist = file.readlines()		#to read list use readlines()
+print(filelist)
+
+
+			appending value into file
+
+s = "python file handling"
+file = open("demo.txt", "a")
+file.write(s)
+print("file updated")
+file.close()

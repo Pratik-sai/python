@@ -1,0 +1,16 @@
+type	meaning
+
+d	Decimal integer
+c	corresponding unicode character
+b	binary format
+o	Octal Format
+x	Hexadicimal format(Lower case)
+X	Hexadecimal Format(upper case) 
+n	Same as 'd'Except it uses current locale setting for number separator
+e	Exponential notation (lowercase e)
+E	Exponential notation (uppercase E)
+f	display fixed point number(Default 6)
+F	same as f except display 'inf' as INF and 'nan' as 'NAN'
+g	general format. Round numbers to p significant digits(default precision 6)
+G	Same as g except switches to 'E' if the number is large
+%	percentage. multiples by 100 and puts % at the end

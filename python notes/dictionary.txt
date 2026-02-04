@@ -1,0 +1,39 @@
+			DICTIONARY
+
+-> it is a collection of python, which works on key and value pair
+-> Follows the ordered container or collection
+-> Dictionary ha immutable key and value could be immutable and mutable both which depends upon what value you are storing
+->same values cannot be store in same keys 
+->If we use the square brackets [], KeyError is raised in case a key is not found in the dictionary. On the other hand, the get() method returns None if the key is not found.
+->{key1:value1,key2:value2,...}
+->		LIST INTO DICTIONARY STORE
+   d1 = {1:"pyton", 2:"java","animal":["lion, "tiger", "wolf"]}
+->		TUPLE INTO DICTIONARY STORE
+   d2 = {1:"pyton", 2:"java","animal":("lion, "tiger", "wolf")}
+->dictionary.get(key)     	FOR ACCESSING THE VALUE
+->d.items()			WRITTENS TUPLE INTO A LIST
+->d.update({key:value})           update the dictionary
+			REMOVE THE ITEM
+->d.pop(key)	KEY VALUE IS COMPULSORY
+->d.popitem	REMOVE LAST ITEM
+->del d[key]	remove
+->d.clear()     clear the dictionary
+		ACCESS ONLY KEYS
+->d.keys()	
+		ACCESS ONLY VALUES
+->d.values()
+
+    					DEFAULTDICT
+-> It's a subsection of dictionary
+->if key is not presant in the dictionary it doesn't excute error but returns the default value
+e.g:- 	def def_value():			output:-1
+    	return "Not Present"				2
+     							Not Present
+	# Defining the dict				
+	d = defaultdict(def_value)
+	d["a"] = 1
+	d["b"] = 2
+ 
+	print(d["a"])
+	print(d["b"])
+	print(d["c"])

@@ -1,0 +1,25 @@
+				FUNCTION
+
+-> Function is a block of code which only runs when is called
+-> Function is also used for reuseability of code
+-> Function is start with "def" keyword
+
+TYPES OF FUNCTION
+->Built-in function(predefined function)
+->User-define function
+->Anonymous function(one line function)
+
+BUILT-IN FUNCTION
+*Print()
+*range()
+*Len()
+*round()	round of the value e.g: (2.57538,2)->2.57 
+*max()
+*min()
+
+USER DEFINE FUNCTION
+def function(argument1,argument2,..):
+
+ANONYMUS FUNCTION
+->lambda function
+-> The function which does not have name
